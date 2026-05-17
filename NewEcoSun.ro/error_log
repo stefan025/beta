@@ -1,0 +1,17 @@
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/mobile-hero.jpg): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpTvMt6A' to 'gallery/mobile-hero.jpg' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/s3n.jpg): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9ivNoj' to 'gallery/s3n.jpg' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/montaj-ac.png): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpmAKnmW' to 'gallery/montaj-ac.png' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/7880.jpg): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpcNxfWG' to 'gallery/7880.jpg' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/Untitled.png): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXaEPDo' to 'gallery/Untitled.png' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/montaj-service-aer-conditionat.jpg): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phplONqGT' to 'gallery/montaj-service-aer-conditionat.jpg' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(gallery/airconditioning.webp): Failed to open stream: No such file or directory in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:30:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpEJoOmx' to 'gallery/airconditioning.webp' in /home/coaselco/public_html/ACC/NewEco/upload.php on line 9
+[09-May-2026 19:54:23 UTC] PHP Warning:  Undefined array key "new" in /home/coaselco/public_html/ACC/NewEco/admin.php on line 34
+[09-May-2026 19:54:23 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/coaselco/public_html/ACC/NewEco/admin.php on line 34
+[09-May-2026 19:54:23 UTC] PHP Warning:  rename(/home/coaselco/public_html/ACC/NewEco/gallery/uploads/1778356290_ec3a0a8f.png,/home/coaselco/public_html/ACC/NewEco/gallery/uploads/): Not a directory in /home/coaselco/public_html/ACC/NewEco/admin.php on line 35

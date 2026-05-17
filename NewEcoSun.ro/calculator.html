@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Calculator HVAC Premium | NewEcoSun HVAC</title>
+
+  <meta name="description" content="Calculează rapid costul montajului aerului condiționat și serviciilor HVAC premium.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="calculator-page">
+
+<div id="header"></div>
+
+<!-- HERO -->
+<section class="hero calculator-hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="container">
+
+    <div class="hero-content reveal">
+
+      <span class="tag">
+        HVAC CONFIGURATOR PREMIUM
+      </span>
+
+      <h1>
+        Calculează instant
+        <span class="gradient-text">
+          costul montajului AC
+        </span>
+      </h1>
+
+      <p>
+        Configurează serviciile dorite și primești instant o estimare transparentă pentru montajul HVAC premium.
+      </p>
+
+      <div class="hero-stats">
+
+        <div class="stat-card">
+          <h3>⚡</h3>
+          <span>Estimare instant</span>
+        </div>
+
+        <div class="stat-card">
+          <h3>🧠</h3>
+          <span>Calcul automat</span>
+        </div>
+
+        <div class="stat-card">
+          <h3>🔧</h3>
+          <span>Montaj premium</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CALCULATOR -->
+<section class="calculator-section container">
+
+  <div class="calculator-layout">
+
+    <!-- LEFT -->
+    <div class="glass-panel calculator-box reveal">
+
+      <!-- PACKAGE -->
+      <div class="calculator-block">
+
+        <div class="block-header">
+          <span>01</span>
+          <h2>Alege pachetul</h2>
+        </div>
+
+        <div class="package-grid">
+
+          <div class="package-card selected">
+
+            <div class="package-top">
+
+              <div>
+                <h3>Montaj Standard</h3>
+                <p>Pachet complet pentru apartamente și locuințe.</p>
+              </div>
+
+              <div class="price">
+                1200 LEI
+              </div>
+
+            </div>
+
+            <ul>
+              <li>✔ 3m conductă frigorifică</li>
+              <li>✔ 3m cablu electric</li>
+              <li>✔ 1 gaură perete inclusă</li>
+              <li>✔ Montaj unitate interioară/exterioară</li>
+              <li>✔ Test funcționare complet</li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ADDONS -->
+      <div class="calculator-block">
+
+        <div class="block-header">
+          <span>02</span>
+          <h2>Servicii suplimentare</h2>
+        </div>
+
+        <div class="addons-grid">
+
+          <label class="addon-card">
+
+            <div class="addon-content">
+              <h4>🧱 Gaură beton</h4>
+              <p>Carotare profesională pereți beton.</p>
+            </div>
+
+            <div class="addon-right">
+              <span>+150 LEI</span>
+              <div class="checkmark"></div>
+            </div>
+
+            <input type="checkbox" id="beton">
+
+          </label>
+
+          <label class="addon-card">
+
+            <div class="addon-content">
+              <h4>🪜 Montaj pe scară</h4>
+              <p>Intervenții HVAC la înălțime.</p>
+            </div>
+
+            <div class="addon-right">
+              <span>+100 LEI</span>
+              <div class="checkmark"></div>
+            </div>
+
+            <input type="checkbox" id="scara">
+
+          </label>
+
+          <label class="addon-card">
+
+            <div class="addon-content">
+              <h4>🧼 Igienizare AC</h4>
+              <p>Curățare și dezinfectare completă.</p>
+            </div>
+
+            <div class="addon-right">
+              <span>+250 LEI</span>
+              <div class="checkmark"></div>
+            </div>
+
+            <input type="checkbox" id="igienizare">
+
+          </label>
+
+          <label class="addon-card">
+
+            <div class="addon-content">
+              <h4>📅 Abonament mentenanță</h4>
+              <p>Verificări și service anual.</p>
+            </div>
+
+            <div class="addon-right">
+              <span>+5000 LEI</span>
+              <div class="checkmark"></div>
+            </div>
+
+            <input type="checkbox" id="abonament">
+
+          </label>
+
+        </div>
+
+      </div>
+
+      <!-- TECH -->
+      <div class="calculator-block">
+
+        <div class="block-header">
+          <span>03</span>
+          <h2>Configurare tehnică</h2>
+        </div>
+
+        <div class="inputs-row">
+
+          <div class="input-box">
+            <label>Conductă suplimentară (m)</label>
+            <input type="number" id="conducta" min="0" value="0">
+          </div>
+
+          <div class="input-box">
+            <label>Cablu suplimentar (m)</label>
+            <input type="number" id="cablu" min="0" value="0">
+          </div>
+
+          <div class="input-box">
+            <label>Reîncărcare freon</label>
+            <input type="number" id="freon" min="0" value="0">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="glass-panel summary-box reveal">
+
+      <div class="summary-header">
+
+        <span>Rezumat</span>
+
+        <h2>Estimare finală</h2>
+
+      </div>
+
+      <div id="summary-items"></div>
+
+      <div class="total-box">
+
+        <small>Total estimativ</small>
+
+        <h1 id="total">
+          1200 LEI
+        </h1>
+
+        <p>
+          Preț orientativ pentru configurarea selectată.
+        </p>
+
+      </div>
+
+      <div class="summary-features">
+
+        <p>✔ Montaj profesional inclus</p>
+        <p>✔ Garanție extinsă</p>
+        <p>✔ Echipă HVAC certificată</p>
+
+      </div>
+
+      <a href="contact.html" class="btn-primary full-btn">
+        Solicită ofertă finală
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta-section container">
+
+  <div class="cta-card reveal">
+
+    <h2>
+      Ai nevoie de consultanță HVAC?
+    </h2>
+
+    <p>
+      Echipa NewEcoSun HVAC te poate ajuta cu soluția potrivită pentru locuința sau spațiul tău comercial.
+    </p>
+
+    <a href="contact.html" class="btn-primary">
+      Contact rapid
+    </a>
+
+  </div>
+
+</section>
+
+<div id="footer"></div>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/calculator.js" defer></script>
+
+</body>
+</html>
